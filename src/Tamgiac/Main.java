@@ -12,7 +12,6 @@ public class Main {
         double b = scanner.nextDouble();
         System.out.println("Nhập độ dài cạnh c: ");
         double c = scanner.nextDouble();
-
         Tamgiac tamGiac = new Tamgiac(a, b, c);
         tamGiac.hienThiThongTin();
     }
